@@ -1,0 +1,19 @@
+/* 
+    Document   : treeColor
+    Created on : 8/10/2014, 01:45:13 PM
+    Author     : rigo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+span.treeColor1 a  {  
+    color: blue; }
+span.treeColor2 a  {  
+    color: #900;   }
+span.treeColor3 a  { 
+    color: red; }
+span.treeColor4 a  { 
+    color: purple; }
+span.treeColorD a  { 
+    color: black; }
+

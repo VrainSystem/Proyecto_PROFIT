@@ -1,0 +1,82 @@
+
+
+/*Dashboard*/
+.small-box .icon {
+    font-size: 24px;
+    top:10px;
+
+}
+.small-box:hover .icon {
+    font-size: 32px;
+    top:10px;
+
+}
+/*Panel*/
+.box{
+    margin-bottom: 10px;
+}
+.small-box{
+    margin-bottom:5%;
+    /*min-height: 40% !important;*/
+    max-height: 100%;
+ 
+}
+.small-box > .inner{
+  padding: 8px;
+ 
+}
+
+.box-title{
+    height: auto;
+}
+
+.small-box h3{
+    font-size: 25px !important;
+    margin:0px;
+}
+.small-box h4{
+    font-size: 16px !important;
+}
+
+
+/*Body*/
+
+.no-margin-bottom{
+    margin-bottom: 0px;
+}
+.content{
+    padding-top: 10px;
+}
+
+ 
+    .h4, h4 {
+        font-size: 16px;
+    }
+    .small-box h3{
+        font-size: 24px;
+    }
+    .box-title{
+        height: auto;
+    }
+    
+    .text-small{
+        color:#606060 !important;
+        font-size: 11px !important;
+    }
+    .mytext-small{
+        color:black !important;
+        font-size: 11px !important;
+    }
+    
+    .indicador{
+        border:1px solid #F5F7ED !important;
+        border-right: 0px;
+        text-shadow: 2px 2px 8px white;
+        padding: 10px !important;
+        
+    }
+    .table td.indicador:hover{
+        background-color: #4B6776 !important;
+        color:white !important;
+        
+    }

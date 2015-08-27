@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-jul-2015, 19:28:04
+    Author     : Lia
+*/
+a{
+    color:#D2D6DE;
+}
+.panel-heading{
+    min-height: 0px;
+}
+.left{
+    float:left;
+}
+.login-box{
+    float:left;   
+  
+}
+.login-box-body{
+    border-radius: 5px;
+    background: transparent;
+    color:#D1D2D4;
+}
+.content{
+    padding:0px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+    padding: 6px 12px;
+    height: 34px;
+}
+.main-header{
+    visibility: hidden;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{
+       
+     
+}
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer
+{  margin-left: 0px !important;
+}
+.login-page, .register-page{
+    background:transparent;
+}
+#LoginForm_username, #LoginForm_password{
+    background: transparent;
+    color:#f4f4f4;
+     
+}
+
+#login-form{
+	margin: 25% auto;
+	width: 375px;
+}
+
+#signuplogo {
+  background: url('../../img/logo-NODE.png') no-repeat;
+  height: 250px;
+  margin-bottom: auto;
+  margin-left: -20%;
+  margin-right: 0;
+  position: absolute;
+  top: 150px;
+  width: 250px;
+
+}
+#logo img {
+width: auto;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+border: 0;
+-ms-interpolation-mode: bicubic;
+text-align: center;
+}
+
+textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus{
+    background-color: transparent !important;
+    color:#f4f4f4;   
+}

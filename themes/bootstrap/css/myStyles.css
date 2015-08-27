@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/01/2015, 01:29:24 PM
+    Author     : Raul
+*/
+#fondoerror{
+    background:url(../img/fondofooter.png) repeat;
+    height: 20px;
+}
+/*
+#noo {
+    width: 200px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}*/
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #0000ff;
+    color: #fff;
+    text-decoration: none;
+    background-color: #c25050;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125) inset;
+    border-radius: 5px;
+    /*margin: 5%;*/
+}
+
+.colortext{
+    color: #fff;
+}
+.btn-inverse{
+font-family: Arial !important;
+height: 40px !important;    
+}
+
+.navbar-inner {
+    height: 0px;
+    padding-right: 20px;
+    padding-left: 20px;    
+    background-image: none;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    padding-top: 0px !important;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #fff; //para las letras cuando le pase por encima
+    color: #076324;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+    background: white !important;
+}
+#img-logo{
+    height: 80px;
+    margin-top: -15px;
+}
+img-logoo{
+    height: 30px; 
+}
+
+#fondo{
+    min-height:740px;
+     
+
+}
+#logo-title{
+    float:right; 
+    margin-top: 13px;
+    margin-left: -7px;
+    color: #333333;
+    font-size:30px; 
+
+}
+#caja-login{
+    width: 450px;
+    margin: auto;
+    margin-top: 250px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204, 162, 72, 1);
+}
+#login-boton{
+    background-color: #fff;   
+}
+
+#body {
+    padding:10px;
+    padding-bottom:150px;    
+    margin-top: 25px;
+    margin-bottom: 5px;
+
+    //    border: 1px solid #eee;
+}
+
+#footernew{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+#rowFooter {
+    background-color: #4B4B4D; //para la parte inferior
+    /*background-color: #6f2d2d;*/
+}
+
+a {
+    color: #c25050;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #6f2d2d;
+    text-decoration: none;
+}
+
+.estilo{
+    margin-bottom: 3%;
+}
+
+.media, .media .media {
+    margin-top: auto;
+}
+
+.strapline {
+    /*margin-left: 5%;*/
+    margin-bottom: 2%;
+    font-family: serif;
+    font-size: 1.10em;
+    font-style: italic;
+    color: #6f2d2d;
+}
+
+.hero-unit {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: #EEE;
+    border-radius: 6px;
+}
+
+.nav {
+    margin-bottom: 10px;
+    /*margin-top: 5px;*/
+    margin-left: 0px;
+    list-style: none outside none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: black;
+    background-color: #F9F6F1;
+    border-radius: 5px;
+    /*margin-left: 3%;*/
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;  
+    margin: 2px 0px 0px;
+    list-style: none outside none;
+    background-color: #F9F6F1;    
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: black ;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #C88B11 !important;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-radius: 5px;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #bf524f;
+    background-image: none;
+    background-repeat: repeat-x;
+    outline: 0px none;
+    border-radius: 5px;
+}
+
+
+
+.nav li + .nav-header {
+    margin: -5px;
+}
